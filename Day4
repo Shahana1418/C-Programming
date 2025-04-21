@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int C,D;
+    printf("Enter the value for swapping:");
+    scanf("%d%d,&C,&D");
+printf("before swapping the variable C=%d,D=%d",C,D);
+int temp;
+temp=C;
+C=D;
+D=temp;
+printf("after using the 3rd variable for swapping C=%d D=%d",C,D);
+C=C+D;
+D=C-D;
+C=C-D;
+printf("after swapping without 3rd variable C=%d D=%d",C,D);
+}
