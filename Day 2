@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    int num1,num2;
+    printf("enter 2 integer:");
+    scanf("%d%d",&num1,&num2);
+    printf("sum of the two integer is %d \n",num1+num2);
+    return 0;
+}
