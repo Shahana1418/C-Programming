@@ -3,5 +3,5 @@ int main(){
     char ch;
     printf("enter the character:");
     scanf("%d",&ch);
-    printf("ascii value is %c :%d",ch,ch);git
+    printf("ascii value is %c :%d",ch,ch);
 }
