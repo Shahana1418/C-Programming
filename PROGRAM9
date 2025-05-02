@@ -1,0 +1,17 @@
+#include<stdio.h>
+int glbr_var = 20;
+void func()
+{
+    printf("the global variable is %d\n",glbr_var);
+}
+int main(){
+    int lcl_var = 25;
+    
+    printf("the local variable is %d\n",lcl_var);
+    int glbr_var2=52;
+    printf("the global variable is %d\n",glbr_var2);
+func();
+
+    printf("the global variable is %d\n",glbr_var);
+    return 0;
+    }
