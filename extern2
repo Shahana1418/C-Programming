@@ -1,0 +1,8 @@
+#include<stdio.h>
+
+extern int num;
+void fun()
+{
+    printf(" called the func() in file2 from file1 \n");
+    printf(" the variable value declared in file1 is %d \n", num);
+}
