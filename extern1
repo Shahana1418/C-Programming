@@ -1,0 +1,10 @@
+#include <stdio.h>
+int num=10;
+extern void fun();
+int main()
+{
+num=45;
+fun();
+return 0;
+}
+
