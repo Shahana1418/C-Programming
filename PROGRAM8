@@ -1,0 +1,5 @@
+#include<stdio.h>
+int main()
+{
+    printf("size of the short int is %ld", sizeof(short int));
+}
