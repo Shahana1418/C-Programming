@@ -2,7 +2,7 @@
 void func()
 {
   static int count = 0;
-  printf(" the value of count is %d\n",count);
+  printf(" the value of static is %d\n",count);
   count++;
 }
 int main()
