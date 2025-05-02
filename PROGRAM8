@@ -1,5 +1,25 @@
-#include<stdio.h>
+#include <stdio.h>
+
 int main()
 {
-    printf("size of the short int is %ld", sizeof(short int));
+    printf(" size of short int is %li bytes \n",sizeof(short int));
+    printf(" \n --- with in range values --- \n");
+
+    short int var1 = -3;
+    printf(" var1 value declared using short int is %hi \n" , var1);
+    printf(" var1 value using unsigned short int is %hu \n" , var1);
+    printf(" var1 value using unsigned int is %u \n" , var1);
+
+
+    printf(" \n --- Overflow conversion: out of bound values --- \n");
+
+    short int var2  = 65539;
+    printf(" var2 value using short int is %hi \n" , var2);
+    printf(" var2 value using unsigned short int is %hu \n" , var2);
+    printf(" var2 value using unsigned int is %u \n" , var2); 
+
+
+    printf(" -------------------------------------------------- \n");
+
+    return 0;
 }
