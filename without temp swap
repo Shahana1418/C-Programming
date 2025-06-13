@@ -4,8 +4,8 @@ int main()
     int A,B,C;
     printf("enter the value of A,B:");
     scanf("%d%d",&A,&B);
-    C=A;
-    A=B;
-    B=C;
+   A=A+B;
+   B=A-B;
+   A=A-B;
     printf("swapping values of A and B without using temp value is A=%d, B=%d",A,B);
 }
