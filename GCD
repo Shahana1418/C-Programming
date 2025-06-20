@@ -4,11 +4,13 @@ int main()
     int a,b;
     printf("enter the two values:");
     scanf("%d%d",&a,&b);
-    while(b!=0){
-        int temp=b;
-        b=a%b;
-        a=temp;
+    lcm=(a>b)? a:b;
+   while(1){
+    if(lcm%a==0 && lcm%b ==0){
+        printf("LCM=%d\n",lcm);
+        break;
     }
-    printf("GCD=%d",a);
-    return 0;
+    lcm++;
+   }
+   return 0;
 }
