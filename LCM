@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int a,b;
+    int a,b,lcm;
     printf("enter the two values:");
     scanf("%d%d",&a,&b);
     lcm=(a>b)? a:b;
